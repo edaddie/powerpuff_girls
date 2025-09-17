@@ -7,11 +7,11 @@ class Buttercup extends PowerPuffGirls {
   String get uniqueSkill => _uniqueSkill;
   double get effectDuration => _effectDuration;
 
-  Buttercup () : super(name: "Buttercup");
+  Buttercup() : super(name: "BUTTERCUP");
 
-  void usesuperSonicScream() {
-    print('Buttercup used $_uniqueSkill: to distract the target for $_effectDuration seconds.');
-}
+  void useSuperSonicScream() {
+    print('Buttercup uses $_uniqueSkill: to distract the target for $_effectDuration seconds.');
+  }
 
 @override
 String info() => '${super.info()} - Unique Skill: $_uniqueSkill (Effect Duration: $_effectDuration s)';

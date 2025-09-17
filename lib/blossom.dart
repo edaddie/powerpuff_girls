@@ -4,7 +4,7 @@ class Blossom extends PowerPuffGirls {
   final String _uniqueSkill = "iceblast";
   final double _stunDuration = 3.0;
 
-  Blossom() : super(name: "Blossom");
+  Blossom() : super(name: "BLOSSOM");
 
   String get uniqueSkill => _uniqueSkill;
   double get stunDuration => _stunDuration;

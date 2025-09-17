@@ -1,21 +1,14 @@
-// Derived class: Bubbles
-// Extends Powerpuff Girls with unique skill "laser vision"
-
 import 'powerPuff_girls.dart';
 
-class Bubbles extends PowePuffGirls {
-  // Private encapsulated fields
+class Bubbles extends PowerPuffGirls {
   final String _uniqueSkill = "laser vision";
-  final double _celsius = 1500; // degree celsius
+  final double _celsius = 1500; 
 
-  // Getter for encapsulated fields (read-only from outside)
   String get uniqueSkill => _uniqueSkill;
   double get celsius => _celsius;
 
-  // Constructor
-   Bubbles() : super(name: "Bubbles");
+   Bubbles() : super(name: "BUBBLES");
 
-  // Unique method to use unique skill
   void useLaserVision() {
     print('Bubbles uses $_uniqueSkill: cut through metal, blast apart large robots, and destroy buildings for $_celsius °C or Degrees Celsius');
   }
